@@ -1,0 +1,25 @@
+package com.my.dao;
+
+import java.sql.Connection;
+
+public class MyBoardDao {
+// db랑 연결해서 데이터 조회하는 기능
+	
+	Connection con = null;
+	
+	public MyBoardDao() {
+		//드라이버등록
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("01.driver 연결");
+		} catch (ClassNotFoundException e) {
+			System.out.println("01. driver 연결 실패");
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+	
+}

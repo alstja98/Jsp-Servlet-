@@ -1,0 +1,22 @@
+
+5월 25, 2022 13:45:33.941 NEW SESSION
+5월 25, 2022 13:45:33.941 [17376:13112:0525/134533.938:ERROR:token_service_table.cc(139)] Failed to decrypt token for service AccountId-116186995149476184003
+5월 25, 2022 13:45:38.289 [17376:19280:0525/134538.288:ERROR:device_event_log_impl.cc(214)] [13:45:38.288] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:45:38.290 [17376:19280:0525/134538.289:ERROR:device_event_log_impl.cc(214)] [13:45:38.288] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:46:34.591 [17376:19044:0525/134634.590:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 25, 2022 13:51:06.913 [1856:9416:0525/135106.913:ERROR:token_service_table.cc(139)] Failed to decrypt token for service AccountId-116186995149476184003
+5월 25, 2022 13:51:11.976 [1856:19304:0525/135111.974:ERROR:device_event_log_impl.cc(214)] [13:51:11.975] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:51:11.979 [1856:19304:0525/135111.978:ERROR:device_event_log_impl.cc(214)] [13:51:11.979] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:52:07.798 [1856:10476:0525/135207.796:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 25, 2022 13:55:27.582 [16608:22584:0525/135527.581:ERROR:token_service_table.cc(139)] Failed to decrypt token for service AccountId-116186995149476184003
+5월 25, 2022 13:55:30.775 [16608:4536:0525/135530.774:ERROR:device_event_log_impl.cc(214)] [13:55:30.774] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:55:30.776 [16608:4536:0525/135530.775:ERROR:device_event_log_impl.cc(214)] [13:55:30.775] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:55:30.776 [16608:4536:0525/135530.775:ERROR:device_event_log_impl.cc(214)] [13:55:30.775] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:56:22.411 [22212:25492:0525/135622.410:ERROR:token_service_table.cc(139)] Failed to decrypt token for service AccountId-116186995149476184003
+5월 25, 2022 13:56:25.896 [22212:5064:0525/135625.895:ERROR:device_event_log_impl.cc(214)] [13:56:25.894] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:56:25.898 [22212:5064:0525/135625.897:ERROR:device_event_log_impl.cc(214)] [13:56:25.896] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:56:25.900 [22212:5064:0525/135625.897:ERROR:device_event_log_impl.cc(214)] [13:56:25.897] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:57:12.388 [23660:10476:0525/135712.388:ERROR:token_service_table.cc(139)] Failed to decrypt token for service AccountId-116186995149476184003
+5월 25, 2022 13:57:15.800 [23660:3136:0525/135715.800:ERROR:device_event_log_impl.cc(214)] [13:57:15.800] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:57:15.801 [23660:3136:0525/135715.800:ERROR:device_event_log_impl.cc(214)] [13:57:15.800] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 25, 2022 13:57:15.802 [23660:3136:0525/135715.800:ERROR:device_event_log_impl.cc(214)] [13:57:15.800] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)

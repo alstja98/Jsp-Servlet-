@@ -1,0 +1,63 @@
+package com.my.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.my.dto.MyBoardDto;
+
+public class MyBoardDao {
+// db랑 연결해서 데이터 조회하는 기능
+	
+	Connection con = null;
+	
+	public MyBoardDao() {
+		//드라이버등록
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("01.driver 연결");
+		} catch (ClassNotFoundException e) {
+			System.out.println("01. driver 연결 실패");
+			e.printStackTrace();
+		}
+	}
+	
+	//전체 출력하는 메소드
+	public List<MyBoardDto> selectAll(){
+		
+		try {
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/multi","root","1234");
+			System.out.println("02. 계정 연결");
+		} catch (SQLException e) {
+			System.out.println("02. 계정 연결 실패");
+			e.printStackTrace();
+		}
+		
+		Statement stmt = null;
+		ResultSet rs = null;
+		List<MyBoardDto> res = new ArrayList<MyBoardDto>();
+		String sql = " SELECT * FROM MYBOARD ";
+		
+		try {
+			stmt = con.createStatement();
+			System.out.println("03. query 준비: " + sql);
+			
+			rs = stmt.executeQuery(sql);
+			System.out.println("04. query 실행 및 리턴");
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+	
+	
+	
+	
+	
+}
