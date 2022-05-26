@@ -121,6 +121,119 @@ public class MyBoardDao {
 		return res;
 	}
 	
+	public int insert(MyBoardDto dto) {
+		try {
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/multi","root","1234");
+			System.out.println("02.계정 연결");
+		} catch (SQLException e) {
+			System.out.println("02.계정 연결 실패");
+			e.printStackTrace();
+		}
+		
+		PreparedStatement pstm = null;
+		int res = 0;
+		
+		String sql = "INSERT INTO MYBOARD VALUES(NULL, ?,?,?, SYSDATE()) ";
+		
+		try {
+			pstm = con.prepareStatement(sql);
+			pstm.setString(1, dto.getMyname());
+			pstm.setString(2,  dto.getMytitle());
+			pstm.setString(3,  dto.getMycontent());
+			System.out.println("03. query준비: " + sql);
+			
+			res = pstm.executeUpdate();
+			System.out.println("04. query 실행 및 리턴");
+			
+		} catch (SQLException e) {
+			System.out.println("3/4 단계 오류");
+			e.printStackTrace();
+		} finally {
+			try {
+				pstm.close();
+				con.close();
+				System.out.println("05. db 종료\n");
+			} catch (SQLException e) {
+				System.out.println("05. db 종료 오류\n");
+				e.printStackTrace();
+			}
+		}
+		
+		return res;
+	}
 	
+	public int update(MyBoardDto dto) {
+		try {
+			con =DriverManager.getConnection("jdbc:mysql://localhost:3306/multi","root","1234");
+			System.out.println("02.계정 연결");
+		} catch (SQLException e) {
+			System.out.println("02.계정 연결 실패");
+			e.printStackTrace();
+		}
+		
+		PreparedStatement pstm = null;
+		int res =0;
+		String sql = "UPDATE MYBOARD SET MYTITLE=?, MYCONTENT=? WHERE MYNO=?";
+		
+		try {
+			pstm = con.prepareStatement(sql);
+			pstm.setString(1, dto.getMytitle());
+			pstm.setString(2, dto.getMycontent());
+			pstm.setInt(3,  dto.getMyno());
+			System.out.println("03. query준비: " + sql);
+			
+			res = pstm.executeUpdate();
+			System.out.println("04. query 실행 및 리턴");
+		} catch (SQLException e) {
+			System.out.println("3/4 단계 오류");
+			e.printStackTrace();
+		} finally {
+			try {
+				pstm.close();
+				con.close();
+				System.out.println("05. db 종료\n");
+			} catch (SQLException e) {
+				System.out.println("05. db 종료 오류\n");
+				e.printStackTrace();
+			}
+		}
+		
+		return res;
+	}
 	
+	public int delete(int myno) {
+		try {
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/multi","root","1234");
+			System.out.println("02. 계정 연결");
+		} catch (SQLException e) {
+			System.out.println("02. 계정 연결 실패");
+			e.printStackTrace();
+		}
+		
+		PreparedStatement pstm = null;
+		int res =0;
+		String sql = "DELETE FROM MYBOARD WHERE MYNO=?";
+		
+		try {
+			pstm = con.prepareStatement(sql);
+			pstm.setInt(1,myno);
+			System.out.println("03. query 준비: " + sql);
+			
+			res = pstm.executeUpdate();
+			System.out.println("04. query 실행 및 리턴");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				pstm.close();
+				con.close();
+				System.out.println("05. db 종료\n");
+			} catch (SQLException e) {
+				System.out.println("05. db 종료 오류\n");
+				e.printStackTrace();
+			}
+		}
+		
+		return res;
+	}
 }
