@@ -93,6 +93,7 @@ public class MDBoardDao {
 	
 	//글 작성
 	public int insert(MDBoardDto dto) {
+		String sql = "INSERT INTO MDBOARD"
 		return 0;
 	}
 	

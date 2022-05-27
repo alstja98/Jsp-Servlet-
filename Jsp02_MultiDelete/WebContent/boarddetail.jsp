@@ -19,7 +19,7 @@
 	MDBoardDto dto = dao.selectOne(seq);
 
 %>
-
+<%@ include file="./form/header.jsp" %> <!-- 필요한, 알맞은 위치에 이렇게 넣어주면 해당파일을 불러옴! -->
 <div id="detailform">
 	<h1>게시글 보기</h1>
 	<table border="1">

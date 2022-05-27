@@ -38,13 +38,13 @@
 	List<MDBoardDto> list = dao.selectAll();
 %>
 
+<%@ include file="./form/header.jsp" %> <!-- 필요한, 알맞은 위치에 이렇게 넣어주면 해당파일을 불러옴! -->
 <h1>글 목록</h1>
 <form id="muldelform" action="muldel.jsp" method="post">
 	<table border=1>
 		<col width="30px"><col width="50px"><col width="100px"><col width="300px"><col width="100px">
 		<tr>
 			<th><input type="checkbox" name="all" onclick="allChk(this.checked);"></th>
-			<th>NO</th>
 			<th>WRITER</th>
 			<th>TITLE</th>
 			<th>DATE</th>
@@ -79,5 +79,7 @@
 	</tr>
 	</table>
 </form>
+<%@ include file="./form/footer.jsp" %>
+
 </body>
 </html>
