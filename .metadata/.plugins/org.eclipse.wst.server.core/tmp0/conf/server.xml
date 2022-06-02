@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jsp04_LoginBoard" path="/Jsp04_LoginBoard" reloadable="true" source="org.eclipse.jst.jee.server:Jsp04_LoginBoard"/></Host>
+      <Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jsp04_LoginBoard" path="/Jsp04_LoginBoard" reloadable="true" source="org.eclipse.jst.jee.server:Jsp04_LoginBoard"/><Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jsp05_HelloServlet" path="/Jsp05_HelloServlet" reloadable="true" source="org.eclipse.jst.jee.server:Jsp05_HelloServlet"/><Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jsp06_Scope" path="/Jsp06_Scope" reloadable="true" source="org.eclipse.jst.jee.server:Jsp06_Scope"/><Context docBase="C:\workspace\5_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Jsp07_EL_JSTL" path="/Jsp07_EL_JSTL" reloadable="true" source="org.eclipse.jst.jee.server:Jsp07_EL_JSTL"/></Host>
     </Engine>
   </Service>
 </Server>
