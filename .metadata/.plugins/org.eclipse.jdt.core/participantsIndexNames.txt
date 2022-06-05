@@ -9,6 +9,8 @@ C:\workspace\5_Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2470945
 \Jsp05_HelloServlet\src
 C:\workspace\5_Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4160739575.index
 \Jsp02_MultiDelete\src
+C:\workspace\5_Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3245088658.index
+\Jsp08_MVC\src
 C:\workspace\5_Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1789690074.index
 \Jsp07_EL_JSTL\src
 C:\workspace\5_Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\666087917.index

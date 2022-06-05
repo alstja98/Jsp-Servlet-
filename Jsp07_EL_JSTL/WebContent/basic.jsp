@@ -38,6 +38,7 @@
 		</tr>
 		
 	</table>
-	
+	<c:out value="${test }"></c:out>
+	${test }
 </body>
 </html>

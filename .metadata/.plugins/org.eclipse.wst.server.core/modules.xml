@@ -6,4 +6,5 @@
   <module moduleId="org.eclipse.jst.jee.server:Jsp03_MVC" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Jsp07_EL_JSTL" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Jsp06_Scope" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Jsp08_MVC" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>
